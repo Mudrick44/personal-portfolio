@@ -1,3 +1,163 @@
-* header{
-    text-align: center;
+* {
+  box-sizing: border-box;
 }
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  column-gap: 40px;
+}
+.nav-item {
+  color: black;
+  font-weight: lighter;
+  cursor: pointer;
+  font-size: medium;
+}
+.intro-text {
+  text-align: center;
+  padding-top: 70px;
+  margin-left: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+}
+.bg-image {
+  background-image: url(./image.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.about-heading {
+  text-align: center;
+  margin: 5% 15% 3% 5%;
+}
+.about-me-text {
+  padding: 1% 10% 1% 10%;
+  text-align: center;
+}
+.my-porfolio{
+    margin: 5% 10% 5% 5%;
+    text-align: center;
+    font-size: larger;
+    font-weight: 200;
+}
+.technical-skills{
+    display: flex;
+    flex-direction: row;
+    
+}
+.tech-col{
+    margin:2px 15px 5px 120px;
+    padding-left: 130px;
+}
+.list-skills{
+    margin-left: 2px;
+    padding-left: 100px;
+}
+.adaptability-col{
+    margin:2px 15px 25px 470px;
+
+}
+.adaptability-list{
+
+    margin-left: 200px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
