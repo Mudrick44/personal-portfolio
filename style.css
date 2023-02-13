@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  background-color: blueviolet;
+  
 }
 
 html,
@@ -82,82 +84,53 @@ summary,
 time,
 mark,
 audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-.header-container {
+video 
+.img-container{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
 }
-.nav-container {
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 30px;
+  margin-top: 70px;
+}
+.intro-text{
+  margin-top: 25px;
+  font-size: 1.9em;
+  font-family: Cinzel, serif;
+  
+}
+hr{
+  border: 1px solid gray;
+  width: 50%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding-right: 70px;
+}
+.about-me{
+  margin-top: 25px;
+  font-family: Cinzel, serif;
+  font-size: 17px; 
+  font-family: 'Fauna One', serif;
+  border-left: 3px solid white;
+  padding-left: 10px;
+  
+}
+.icons-container{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  column-gap: 40px;
+  justify-content: center;
+  
 }
-.nav-item {
-  color: black;
-  font-weight: lighter;
-  cursor: pointer;
-  font-size: medium;
+.icon{
+  margin-right: 25px;
+  font-size: 35px;
+  margin-left: 60px;
 }
-.intro-text {
-  text-align: center;
-  padding-top: 70px;
-  margin-left: 25px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: x-large;
+.icons-container .icon:hover{
+  transform:scale(1.2);
 }
-.bg-image {
-  background-image: url(./image.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-}
-.about-heading {
-  text-align: center;
-  margin: 5% 15% 3% 5%;
-}
-.about-me-text {
-  padding: 1% 10% 1% 10%;
-  text-align: center;
-}
-.my-porfolio{
-    margin: 5% 10% 5% 5%;
-    text-align: center;
-    font-size: larger;
-    font-weight: 200;
-}
-.technical-skills{
-    display: flex;
-    flex-direction: row;
-    
-}
-.tech-col{
-    margin:2px 15px 5px 120px;
-    padding-left: 130px;
-}
-.list-skills{
-    margin-left: 2px;
-    padding-left: 100px;
-}
-.adaptability-col{
-    margin:2px 15px 25px 470px;
-
-}
-.adaptability-list{
-
-    margin-left: 200px;
-    margin-top: 15px;
-    margin-bottom: 10px;
-}
-
